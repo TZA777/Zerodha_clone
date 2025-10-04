@@ -1,16 +1,60 @@
-# React + Vite
+1. create a project file zerodha---with folders----- backend, dashboard, and frontend (npm create vite)
+2. setting routes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    step1: in frontend npm install react-router-dom
+    step2: in App.jsx wrap Route---->Routes---->BrowserRouter
+    step3: check out landing page of zerodha and create necessary routes ---STRUCTURING ROUTES
 
-Currently, two official plugins are available:
+3. STRUCTURING HOME PAGE
+    subComponents
+    s1: navBar
+    s2: heroImg
+    s3: SignUp
+    s4: Stats
+    s5: Pricing
+    s6: Education
+    s7: SignUp
+    s8: Footer
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+4. STRUCTURING SIGNUP
 
-## React Compiler
+    s1: navBaar
+    s2: Signup section
+    s3: Investment section
+    s4: Demat Account section
+    s5: Benfits sections
+    s6: Accout Types section
+    s7: FAQ
+    s8: Signup section
+    s9: Footer
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+5.  Structuring About
+    s1: navBar
+    s2: intro
+    s3: people
+    s4: footer
 
-## Expanding the ESLint configuration
+6. Structuring Zerodha Products
+    s1: Intro
+    s2: LI---KITE
+    s3: RI--Console
+    s4: ---Coin
+    s5: ---Kite Connect API
+    s6: ---Varsity mobile
+    s7: ---Zerodha Universe
+    s8: ---signup
+    s9: ---footer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+7. Structuring Pricng
+    s1: navbar + charges
+    s2: Equity, Currency, Commodity Table
+    s3: Account Opening charges
+    s4: Demat AMC
+    s5: Add-on charges
+    s6: Detailed charges
+    s7: Footer
+
+8. Structing Support Portal
+    s1: search section
+    s2: Quick Links
+    s3: Footer
